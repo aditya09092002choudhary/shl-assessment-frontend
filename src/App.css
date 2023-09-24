@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width:500px) {
+  .footer{
+    /* display: block !important; */
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,147 @@
+.body-container{
+    /* border: 1px solid; */
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+
+.body-container .all-projects{
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+
+.body-container .project-card{
+    /* border: 1px solid; */
+    margin: 15px auto;
+    width: 20%;
+    border-radius: 6px;
+    /* box-sizing: border-box; */
+    background-color: white;
+    box-shadow: 0px 0px 5px;
+}
+
+.body-container .project-card h2{
+    margin-bottom: 15px;
+}
+
+.body-container .project-card span{
+    display: block;
+    margin-top:12px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.body-container .project-card strong{
+    display: block;
+    font-size: 14px;
+}
+
+.body-container .project-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-container .project-card-inset{
+    padding: 20px 15px;
+    /* border: 1px solid; */
+    border-radius: 6px;
+}
+
+.projectBody{
+    /* border: 1px solid; */
+    padding: 30px 50px;
+    margin: 40px 0;
+    /* height: 400px; */
+    background-color: #ebebeb;
+}
+
+.projectBody h1{
+    margin-bottom: 15px;
+}
+
+.projectBody hr{
+    margin-bottom: 40px;
+}
+
+.projectBody h2{
+    margin-bottom: 15px;
+}
+
+.projectBody span{
+    display: block;
+    margin-top:12px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.projectBody strong{
+    display: block;
+    font-size: 18px;
+    margin: 8px 0 20px 15px;
+}
+@media screen and (min-width:500px) and (max-width: 1000px) {
+    .body-container .project-card{
+        margin: 15px auto;
+        width: 45%;
+        border-radius: 6px;
+        background-color: white;
+        box-shadow: 0px 0px 5px;
+    }
+    
+    
+}
+
+@media screen and (max-width:500px) {
+    .body-container .project-card{
+        margin: 15px auto;
+        width: 100%;
+        border-radius: 6px;
+        background-color: white;
+        box-shadow: 0px 0px 5px;
+    }
+    .projectBody{
+        padding: 30px 20px;
+        margin: 40px 0;
+        background-color: #ebebeb;
+    }
+    .projectBody h1{
+        font-size: 1.8rem;
+    }
+    .projectBody hr{
+        margin-bottom: 25px;
+    }
+    
+    .projectBody h2{
+        font-size: 1.4rem;
+    }
+    
+    .projectBody span{
+        display: block;
+        margin-top:12px;
+        margin-bottom: 2px;
+        font-size: 16px;
+    }
+    
+    .projectBody strong{
+        display: block;
+        font-size: 16px;
+        margin: 8px 0 20px 15px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .body-container{
+        width: 100%;
+    }
+    .body-container .project-card{
+        margin: 15px auto;
+        width: 100%;
+        border-radius: 6px;
+        background-color: white;
+        box-shadow: 0px 0px 5px;
+    }
+}
